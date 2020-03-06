@@ -1,7 +1,8 @@
 <?php
-session_start();
-require("config.php");
+session_start();           // Make sure PHP sessions are enabled.
+define("AVCAPTCHA_WEB_ROOT", "/"); // Web path root to avcaptcha files.
 ?>
+
 <html>
 
 <head>
@@ -23,7 +24,7 @@ if( isset($_POST['submit']) ){
           echo('Captcha test failed.');
       }else{
            echo('Captcha passed.');
-      } 
+      }
 }
 ?>
 
