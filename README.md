@@ -6,6 +6,8 @@
 - CAPTCHA difficulty (strength) is low to moderate, however custom captchas are usually not already broken by spammers.
 - You may use and modify this script for any purpose as long as this README.md file and the following line is kept with the script:
 
+https://syntaxseed.com/project/avcaptcha/
+
 Author: Sherri Wheeler (syntaxseed.com). Copyright (c) 2020.
 
 ## Usage
