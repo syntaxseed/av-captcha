@@ -30,9 +30,9 @@ $imgHeight = imagesy($NewImage);
 
 // Draw the random lines:
 for ($i = 1; $i <= $NumberOfLines; $i++) {
-    $startX = rand(0, $imgWidth);
+    $startX = random_int(0, $imgWidth);
     $startY = 0;
-    $endX = rand(0, $imgWidth);
+    $endX = random_int(0, $imgWidth);
     $endY = $imgHeight;
     imageline($NewImage, $startX, $startY, $endX, $endY, $LineColor);
 }
@@ -42,9 +42,9 @@ imagettftext($NewImage, $FontSize, 0, 10, 18, $TextColor, $FontPath, $RandomStr)
 
 // Draw the noise over the text:
 for ($i = 1; $i<=$NoiseAmount; $i++) {
-    $SpeckColor = imagecolorallocate($NewImage, rand(1, 255), rand(1, 255), rand(1, 255));
-    $SpeckX = rand(1, $imgWidth);
-    $SpeckY = rand(1, $imgHeight);
+    $SpeckColor = imagecolorallocate($NewImage, random_int(1, 255), random_int(1, 255), random_int(1, 255));
+    $SpeckX = random_int(1, $imgWidth);
+    $SpeckY = random_int(1, $imgHeight);
     imagesetpixel($NewImage, $SpeckX, $SpeckY, $SpeckColor);
 }
 

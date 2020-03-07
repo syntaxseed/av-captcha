@@ -1,6 +1,7 @@
 # AVCaptcha
 
 - This is a simple drop-in anti-spam CAPTCHA script written in PHP.
+- PHP version 7+.
 - It is loosely based on the CodeWalkers.com Simple PHP CAPTCHA (no longer online).
 - Provided without any warranty or implication of fitness for any purpose.
 - CAPTCHA difficulty (strength) is low to moderate, however custom captchas are usually not already broken by spammers.
@@ -22,3 +23,11 @@ True Type Fonts can be found in various places online. Google's *Viga* font has 
 
 - Find the .ttf file you desire and place it in the resources/fonts/ directory in this avcaptcha directory.
 - Edit the settings in avcaptcha.php to set the correct font file.
+
+## Version History
+
+- 2020-03-07 - Updated for PHP 7.3.
+- 2020-03-06 - Added to GitHub, improved readme and simplified the code.
+- 2009-06-04 - Changed to use a jpg image as a base. Otherwise doesn't work in some environments.
+- 2009-02-12 - Removed the need for the external JS file. Now uses inline JS for the reload button.
+- 2009-02-11 - Created AVCaptcha.
