@@ -1,4 +1,6 @@
 <?php
+// AVCaptcha - Author: Sherri Wheeler (syntaxseed.com). License: MIT.
+
 session_start();           // Make sure PHP sessions are enabled.
 define("AVCAPTCHA_WEB_ROOT", "/"); // Web path root to avcaptcha files.
 ?>

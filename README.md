@@ -1,15 +1,16 @@
 # AVCaptcha
 
+<img src="resources/example.png" border="0" />
+
 - This is a simple drop-in anti-spam CAPTCHA script written in PHP.
 - PHP version 7+.
 - It is loosely based on the CodeWalkers.com Simple PHP CAPTCHA (no longer online).
 - Provided without any warranty or implication of fitness for any purpose.
 - CAPTCHA difficulty (strength) is low to moderate, however custom captchas are usually not already broken by spammers.
+- Extend this sample project to build your own captcha!
 - You may use and modify this script for any purpose as long as this README.md file and the following line is kept with the script:
 
-https://syntaxseed.com/project/avcaptcha/
-
-Author: Sherri Wheeler (syntaxseed.com). Copyright (c) 2020.
+Author: Sherri Wheeler (syntaxseed.com). License: MIT.
 
 ## Usage
 
