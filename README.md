@@ -2,8 +2,9 @@
 
 <img src="resources/example.png" border="0" />
 
+- Version 1.2.0.
 - This is a simple drop-in anti-spam CAPTCHA script written in PHP.
-- PHP version 7+.
+- PHP version 7+, 8.0+.
 - It is loosely based on the CodeWalkers.com Simple PHP CAPTCHA (no longer online).
 - Provided without any warranty or implication of fitness for any purpose.
 - CAPTCHA difficulty (strength) is low to moderate, however custom captchas are usually not already broken by spammers.
@@ -27,6 +28,7 @@ True Type Fonts can be found in various places online. Google's *Viga* font has 
 
 ## Version History
 
+- 2022-01-28 - Tested for PHP 8.0 (v1.2.0).
 - 2020-03-07 - Updated for PHP 7.3.
 - 2020-03-06 - Added to GitHub, improved readme and simplified the code.
 - 2009-06-04 - Changed to use a jpg image as a base. Otherwise doesn't work in some environments.
