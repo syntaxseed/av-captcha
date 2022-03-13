@@ -1,4 +1,5 @@
 <?php
+
 // AVCaptcha - Author: Sherri Wheeler (syntaxseed.com). License: MIT.
 session_start();
 
